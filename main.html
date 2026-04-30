@@ -316,8 +316,7 @@ textarea { resize: vertical; min-height: 70px; }
 <div id="app-content" style="display:none">
 <!-- NAV -->
 <nav id="main-nav" style="display:none">
-  <a href="../index.html" class="tier-back-btn">← 導航</a>
-  <div class="nav-logo">🐟 CWA員工福利站</div>
+  <div class="nav-logo" onclick="location.reload()" style="cursor: pointer;" title="回到首頁">🐟 CWA員工福利站</div>
   <div class="nav-tabs" id="nav-tabs">
     <div class="nav-tab admin-only" data-page="dashboard" onclick="switchPage('dashboard')">📊 戰情儀表板</div>
     <div class="nav-tab active" data-page="shop" onclick="switchPage('shop')">🛍️ 選購商品</div>
